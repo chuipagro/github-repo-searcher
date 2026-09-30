@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <input id="query" type="text" placeholder="Search repos… (e.g. cpe-100)" autofocus autocomplete="off" spellcheck="false" />
+    <button id="refresh" title="Refresh from GitHub">⟳</button>
+    <button id="settings" title="Settings">⚙</button>
+  </header>
+
+  <nav id="crumbs" hidden></nav>
+  <div id="status"></div>
+  <ul id="results"></ul>
+
+  <footer id="hints"></footer>
+
+  <script src="github.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
