@@ -36,7 +36,7 @@ It works in any Chromium-based browser (Chrome, Edge, Brave, Arc…).
 | Setting | Default | Description |
 | --- | --- | --- |
 | GitHub personal access token | — | Stored only in your browser's local extension storage. |
-| Owner filter (regex) | `^Epitech` | Only repos whose owner matches are kept. Use `.*` to keep everything. |
+| Owner filter (regex) | `^user` | Only repos whose owner matches are kept. Use `.*` to keep everything. |
 | Organizations to scan | *(empty)* | Extra orgs to index in full, separated by spaces or commas (e.g. `EpitechPromo2027 EpitechPromo2028`). |
 | Auto-refresh after (minutes) | `60` | How long the repo cache stays valid before a background refresh. |
 
